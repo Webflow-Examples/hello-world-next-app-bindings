@@ -6,6 +6,7 @@
     "dev": "next dev",
     "dev:cf": "opennextjs-cloudflare build && wrangler dev",
     "build": "next build",
+    "e2e:buildtime-secret-probe": "node ./scripts/e2e-buildtime-secret-probe.mjs",
     "start": "next start",
     "lint": "eslint",
     "db:setup": "wrangler d1 migrations apply DB --local",
